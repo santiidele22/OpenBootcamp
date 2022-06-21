@@ -41,6 +41,13 @@ class Coche{
     public int getDoors(){
         return this.doors;
     }
+    public void pushDoors(){
+        this.doors++;
+    }
+    public void deleteDoors(){
+        this.doors--;
+    }
+
  }
     
 
