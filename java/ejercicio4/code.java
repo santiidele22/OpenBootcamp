@@ -1,4 +1,4 @@
-package ejercicio4;
+package java.ejercicio4;
 public class code{
     public static void main(String[] args) {
         Cliente cliente = new Cliente();

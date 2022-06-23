@@ -1,4 +1,4 @@
-package ejercicio1;
+package java.ejercicio1;
 public class code{
 public static void main(String[] args) {
     var resultado = suma(10,20,30);

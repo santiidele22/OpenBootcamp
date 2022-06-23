@@ -1,4 +1,4 @@
-package ejercicio2;
+package java.ejercicio2;
 
 public class code {
     public static void main(String[] args) {
