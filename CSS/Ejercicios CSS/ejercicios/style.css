@@ -1,0 +1,30 @@
+body { 
+    background-color: #ECEBE4 ;
+}
+#titulo{
+    text-align: center;
+    display: block;
+}
+.encabezado{
+    padding: 0;
+    margin: 10 10;
+}
+#elemento-1{
+    color:#C20114;
+    font-size:2rem;
+}
+
+#elemento-1, #elemento-2, #elemento-3, #elemento-4, #elemento-5{
+   background-color:#A6B1E1;
+   text-decoration: underline;
+   
+}
+ 
+
+/* segunda parte*/
+.encabezado2{
+    padding: 0;
+    margin: 10 10;
+}
+
+

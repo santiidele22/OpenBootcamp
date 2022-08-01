@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.btn{
+    padding: 2.5rem 7rem ;
+    background-color: #42BFDD;
+    border: 0.1rem solid #42BFDD;
+    cursor: pointer;
+    position: relative;
+    border-radius: .3rem;
+    overflow: hidden;
+}
+
+.btn::before{
+    content: "Pasa por encima";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 700;
+    text-shadow: .1rem, .1rem, .1rem black;
+    transition: .2s ease;
+}
+
+
+.btn::after{
+    content: "Hecho!";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 700;
+    text-shadow: .1rem, .1rem, .1rem black;
+    transition: .2s ease;
+    opacity: 0;
+}
+
+
+.btn:hover::before{
+    color: #fff;
+    transform: translate(-50%, -50%) scale (3);
+    opacity: 0;
+}
+.btn:hover::after{
+    color: #fff;
+    transform: translate(-50%, -50%) scale (1);
+    opacity: 1;
+}
