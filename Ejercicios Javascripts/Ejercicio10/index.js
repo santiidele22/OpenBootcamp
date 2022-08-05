@@ -4,11 +4,11 @@
 
 - Pregunta al usuario cuál es su edad y almacénala en una variable llamada edad */
 const age = prompt("Cuantos años tenes")
-const over_18 = ( ) => {
+const over_18_ = ( ) => {
     if(age < 18){
         return prompt("Sos menor de edad");
     } else {
         return prompt("Sos mayor de edad");
     }
 }
-over_18();
+over_18_();
