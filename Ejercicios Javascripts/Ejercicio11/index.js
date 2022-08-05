@@ -14,6 +14,6 @@ const alwaysTrue = () => {
   function* idMaker(){
       var index = 0;
       while(index < 10)
-        yield index++;
+        yield index += 2;
     }
   const acc = idMaker();
