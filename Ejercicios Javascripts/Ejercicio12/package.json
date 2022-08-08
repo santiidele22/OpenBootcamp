@@ -1,0 +1,23 @@
+{
+  "name": "openbootcamp",
+  "version": "1.0.0",
+  "description": "\"# OpenBootcamp\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santiidele22/OpenBootcamp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    
+  },
+  "homepage": "",
+  "dependencies": {
+    "winston": "^3.8.1"
+  }
+}
