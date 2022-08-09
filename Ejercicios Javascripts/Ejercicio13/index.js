@@ -12,11 +12,8 @@
 
 - Modifica el último console.log del entrypoint index.js para devolver el resultado en color verde*/
 import chalk from 'chalk';
-import * as math from './modulos/controller.js'
+import { suma, multiplica } from "./controller.js"
 
-const suma = math.sum(4,5);
-const multiplicación = math.mult(1,2);
-console.log(suma);
-console.log(multiplicación);
-console.log(chalk.green(suma));
-console.log(chalk.green(multiplicación));
+
+console.log(multiplica(suma(1, 2), suma(4, 5)))
+console.log(chalk.green(multiplica(suma(1, 2), suma(4, 5))))
